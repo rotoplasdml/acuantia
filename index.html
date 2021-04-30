@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acuantia</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Acuantia</title>
 </head>
-<body>
-    
-</body>
+	<body>
+		<h1 data-i18n="app-welcome"></h1>
+		<p data-i18n="app-introduction"></p>
+
+		<!-- jQery -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<!-- jquery.i18n -->
+		<script src="js/CLDRPluralRuleParser.js"></script>
+		<script src="js/jquery.i18n.js"></script>
+		<script src="js/jquery.i18n.messagestore.js"></script>
+		<script src="js/jquery.i18n.fallbacks.js"></script>
+		<script src="js/jquery.i18n.language.js"></script>
+		<script src="js/jquery.i18n.parser.js"></script>
+		<script src="js/jquery.i18n.emitter.js"></script>
+		<script src="js/jquery.i18n.emitter.bidi.js"></script>
+		<script src="js/languages/ru.js"></script>
+		<!-- script -->
+		<script>
+			jQuery(document).ready(function() {
+				console.log('rdy');
+
+				$.i18n( {
+					locale: 'es'
+				} );
+
+				var update_texts = function() { 
+					$('body').i18n(); 
+				};
+
+				$.i18n().load({
+					'es': 'js/languages/es.json',
+					'en': 'js/languages/en.json',
+					'po': 'js/languages/po.json'
+				}).done(function(){
+					console.log('load:done');
+					update_texts();
+				});				
+			});
+
+			/* jQuery(function($) {
+				$.i18n().load({
+					'es': 'js/languages/es.json',
+					'en': 'js/languages/en.json',
+					'po': 'js/languages/po.json'
+				}).done(function() {
+					// <—
+				});
+			}); */
+		</script>
+	</body>
 </html>

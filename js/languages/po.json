@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jorge Arguelles"
+		],
+		"last-updated": "2021-04-30",
+		"locale": "po",
+		"message-documentation": "qqq"
+	},
+	"app-welcome": "Receber!",
+	"app-introduction": "Introdução"
+}
