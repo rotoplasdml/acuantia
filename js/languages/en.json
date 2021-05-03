@@ -8,5 +8,8 @@
 		"message-documentation": "qqq"
 	},
 	"app-welcome": "Welcome!",
-	"app-introduction": "Introduction "
+	"app-introduction": "Introduction ",
+	"app-selector-es": "Spanish",
+	"app-selector-en": "English",
+	"app-selector-po": "Portuguese"
 }
