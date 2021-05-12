@@ -7,27 +7,95 @@
 		<title>Acuantia</title>
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/app.css">
 	</head>
 	<body>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-2 offset-10 mt-3 text-end">
-					<select name="languageSelector" id="languageSelector">
-						<option data-i18n="app-selector-es" value="es">Español</option>
-						<option data-i18n="app-selector-en" value="en">Ingles</option>
-						<option data-i18n="app-selector-po" value="po">Portugues</option>
-					</select>
+		<!-- Navegacion -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+			<div class="container-fluid">
+
+				<a href="#" class="navbar-brand">
+					<img src="recursos/imagenes/Acuantia_Masterbrand_RGB_02.png" alt="Acuantia" title="Acuantia" width="200">
+				</a>
+
+				<button 
+					class="navbar-toggler" 
+					type="button" 
+					data-bs-toggle="collapse" 
+					data-bs-target="#toggleMobileMenu" 
+					aria-controls="toggleMobileMenu" 
+					aria-expanded="false" 
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="toggleMobileMenu">
+				
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item"><a class="nav-link" href="#">¿Quiénes somos?</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">¿Qué servicios ofrecemos?</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Nuestra historia</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Nuestras marcas</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+						<li class="nav-item">
+							<a class="menu-cta btn mx-0 my-2 mx-lg-2 my-lg-0" href="#">+52 800 506 3000</a>
+						</li>
+						<li class="nav-item">
+							<select class="form-select w-auto h-100 my-2 my-lg-0" name="languageSelector" id="languageSelector">
+								<option data-i18n="app-selector-es" value="es">Esp</option>
+								<option data-i18n="app-selector-en" value="en">Eng</option>
+								<option data-i18n="app-selector-po" value="po">Por</option>
+							</select>
+						</li>
+					</ul>
+
 				</div>
+
 			</div>
 
+		</nav>
+		<!-- Contenidos -->
+		<div class="container-fluid">
+			<!-- Quienes somos -->
+			<div class="row">
+				<div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+					<div class="w-75 p-3">
+						<h2>¿Quiénes somos?</h2>
+						<p>Somos una marca con el respaldo de Grupo Rotoplas, empresa internacional especializada en Soluciones de Agua con presencia en 14 países. En Acuantia desarrollamos soluciones que ayuden a garantizar el agua para las generaciones futuras a través de servicios para la purificación, el tratamiento, reúso, y desalinización del agua. También brindamos productos para el almacenamiento de líquidos a través de plataformas de delivery.</p>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 px-0">
+					<img class="w-100" src="recursos/imagenes/quienes-somos.jpg" alt="¿Quiénes somos?" title="¿Quiénes somos?">
+				</div>
+			</div>
+			<!-- Cintillo Presentes -->
+			<div class="row">
+				<div class="col-12 p-3 text-center">
+					<img class="d-inline-block m-3" src="recursos/imagenes/presentes.jpg" alt="Presentes" title="Presentes">
+					<p class="d-inline-block w-25 text-start align-middle">Estamos presentes en Estados Unidos y Brasil y operamos con un equipo de más de  XXX.</p>
+				</div>
+			</div>
+			<!-- Proposito / Pilares -->
+			<div class="row">
+				<div class="col-12 col-lg-6 px-0">
+					<img class="w-100" src="recursos/imagenes/proposito-pilares.jpg" alt="Proposito / Pilares" title="Proposito / Pilares">
+				</div>
+				<div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+					<div class="w-75 p-3">
+						<h2>Propósito</h2>
+						<p>En Acuantia nos hemos propuesto cuidar el agua y acompañarla a lo largo de su ciclo natural. La almacenamos como los lagos, la transportamos como los ríos, la filtramos como la tierra y la calentamos como el sol.</p>
+						<p>Promoviendo su uso responsable y su reutilización a través de soluciones integrales que garanticen su protección, podemos asegurar el acceso al agua para las generaciones futuras y su conservación a largo plazo.</p>
+						<br>
+						<h2>Pilares</h2>
+						<p>Al ser parte de Rotoplas nuestros principales pilares son la sustentabilidad y la innovación al crear soluciones que ayuden al almacenamiento, al tratamientos y reúso del agua.</p>
+					</div>
+				</div>
+			</div>
+			<!-- Test idiomas -->
 			<div class="row">
 				<div class="col">
 					<h1 data-i18n="app-welcome">¡Bienvenidos!</h1>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col">
 					<p data-i18n="app-introduction">Introducción</p>
 				</div>
 			</div>
@@ -43,6 +111,9 @@
 		<script src="js/jquery.i18n.parser.js"></script>
 		<script src="js/jquery.i18n.emitter.js"></script>
 		<script src="js/jquery.i18n.emitter.bidi.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+		
 		<!-- script -->
 		<script src="js/app.js"></script>
 	</body>

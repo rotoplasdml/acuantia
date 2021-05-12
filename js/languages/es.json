@@ -9,7 +9,7 @@
 	},
 	"app-welcome": "¡Bienvenidos!",
 	"app-introduction": "Introducción",
-	"app-selector-es": "Español",
-	"app-selector-en": "Ingles",
-	"app-selector-po": "Portugues"
+	"app-selector-es": "Esp",
+	"app-selector-en": "Eng",
+	"app-selector-po": "Por"
 }

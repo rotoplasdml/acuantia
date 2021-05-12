@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Point-Regular';
+	src: url('../recursos/tipografias/Point-Regular.woff2') format('woff2'), url('../recursos/tipografias/Point-Regular.woff') format('woff');
+	font-display: swap;
+}
+
+body {
+	font-family: 'Point-Regular';
+}
+
+.menu-cta {
+	padding: .5rem 1rem;
+	border-radius: 2rem;
+	background: #2b73ff;
+	color: #ffffff;
+	text-decoration: none;
+}
