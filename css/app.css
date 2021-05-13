@@ -4,8 +4,37 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Point-Bold';
+	src: url('../recursos/tipografias/Point-Bold.woff2') format('woff2'), url('../recursos/tipografias/Point-Bold.woff') format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Point-ExtraBold';
+	src: url('../recursos/tipografias/Point-ExtraBold.woff2') format('woff2'), url('../recursos/tipografias/Point-ExtraBold.woff') format('woff');
+	font-display: swap;
+}
+
+.regular {
+	font-family: 'Point-Regular';
+}
+
+.bold {
+	font-family: 'Point-Bold';
+}
+
+.extra-bold {
+	font-family: 'Point-ExtraBold';
+}
+
 body {
 	font-family: 'Point-Regular';
+	color: #6e737a;
+}
+
+h2 {
+	font-family: 'Point-ExtraBold';
 }
 
 .menu-cta {
@@ -14,4 +43,129 @@ body {
 	background: #2b73ff;
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.acuantia-btn {
+	display: inline-block;
+	padding: .5rem 1.25rem;
+    padding-bottom: .6rem;
+	border-radius: 2rem;
+	background: #242c36;
+	color: #ffffff;
+	text-decoration: none;
+}
+.acuantia-btn span {
+	display: inline-block;
+	vertical-align: middle;
+}
+.acuantia-btn img {
+	margin-left: .5rem;
+}
+
+.acuantia-quienes {
+	background-color: #2b73ff;
+	color: #ffffff;
+}
+.acuantia-quienes h2 {
+	font-size: 2.5rem;
+}
+
+.acuantia-presentes {
+	background: #eaebec;
+}
+
+.acuantia-proposito h2 {
+	color: #242c36;
+}
+
+.acuantia-servicios {
+	padding: 5rem 0;
+	background: #eaebec;
+}
+.acuantia-servicios	h2 {
+	color: #242c36;
+}
+.acuantia-servicios	p:nth-child(2) {
+	font-size: 22px;
+    font-family: 'Point-ExtraBold';
+    color: #75d1ff;
+	margin-bottom: 2rem;
+}
+
+
+.acuantia-historia {
+	background: #2b73ff;
+	color: #ffffff;
+	padding: 5rem 0;
+}
+
+
+.acuantia-quien {
+	padding: 3rem 0;
+}
+.acuantia-quien-texto {
+	padding: 5rem;
+}
+
+
+.parallax {
+	/* The image used */
+	padding: 3rem 0;
+	background-color: #eaebec;
+	background-image: url("../recursos/imagenes/mapa.png");
+	/* Set a specific height */
+	/* min-height: 500px; */
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: 90% center;
+	background-repeat: no-repeat;
+	background-size: 500px;
+}
+
+
+.acuantia-cintillo-texto {
+	padding: 3rem 0;
+}
+
+
+.acuantia-marcas {
+	padding: 4rem 0;
+	background: #242c36;
+	color: #ffffff;
+}
+.acuantia-marcas h2 {
+	margin-bottom: 3rem;
+}
+
+
+
+.acuantia-contacto {
+	background: url('/recursos/imagenes/contacto-fondo.jpg') no-repeat;
+	padding: 5rem 0;
+	background-size: cover;
+}
+.acuantia-contacto form {
+    padding: 2rem;
+    background: rgb(10 11 15 / 75%);
+    border-radius: 1rem;
+}
+.acuantia-contacto h2 {
+    color: #ffffff;
+	margin-bottom: 2rem;
+}
+
+
+footer {
+	padding: 3rem 0;
+	background: #141618;
+	color: #ffffff;
+}
+footer h2 {
+	margin-top: .7rem;
+}
+footer .acuantia-btn {
+	padding: .3rem 1.5rem;
+    padding-bottom: .5rem;
+	background-color: #141618;
+	border: 1px solid #ffffff;
 }
