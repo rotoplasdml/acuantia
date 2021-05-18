@@ -157,7 +157,7 @@ option {
 
 
 .acuantia-contacto {
-	background: url('/recursos/imagenes/contacto-fondo.jpg') no-repeat;
+	background: url('../recursos/imagenes/contacto-fondo.jpg') no-repeat;
 	padding: 5rem 0;
 	background-size: cover;
 }
