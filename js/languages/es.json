@@ -9,6 +9,17 @@
 	},
 	"app-welcome": "¡Bienvenidos!",
 	"app-introduction": "Introducción",
+
+	"app-menu-about": "¿Quiénes somos?",
+	"app-menu-services": "¿Qué servicios ofrecemos?",
+	"app-menu-history": "Nuestra historia",
+	"app-menu-brands": "Nuestras marcas",
+	"app-menu-contact": "Contacto",
+
+	"app-sec-about-title": "¿Quiénes somos?",
+	"app-sec-about-txt": "Somos una marca con el respaldo de Grupo Rotoplas, empresa internacional especializada en Soluciones de Agua con presencia en 14 países. En Acuantia desarrollamos soluciones que ayuden a garantizar el agua para las generaciones futuras a través de servicios para la purificación, el tratamiento, reúso, y desalinización del agua. También brindamos productos para el almacenamiento de líquidos a través de plataformas de delivery.",
+	"app-sec-about-btn": "Solicita una consulta",
+
 	"app-selector-es": "Esp",
 	"app-selector-en": "Eng",
 	"app-selector-po": "Por"

@@ -28,6 +28,18 @@
 	font-family: 'Point-ExtraBold';
 }
 
+::-webkit-input-placeholder { /* Edge */
+	font-family: 'Point-Regular';
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-family: 'Point-Regular';
+}
+
+::placeholder {
+	font-family: 'Point-Regular';
+}
+
 body {
 	font-family: 'Point-Regular';
 	color: #6e737a;
@@ -35,6 +47,11 @@ body {
 
 h2 {
 	font-family: 'Point-ExtraBold';
+}
+
+option {
+	font-family: 'Point-Regular';
+	font: -moz-pull-down-menu;
 }
 
 .menu-cta {

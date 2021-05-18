@@ -9,6 +9,17 @@
 	},
 	"app-welcome": "Welcome!",
 	"app-introduction": "Introduction ",
+
+	"app-menu-about": "About us?",
+	"app-menu-services": "What services do we offer?",
+	"app-menu-history": "Our history",
+	"app-menu-brands": "Our brands",
+	"app-menu-contact": "Contact",
+
+	"app-sec-about-title": "About us",
+	"app-sec-about-txt": "We are a brand backed by Grupo Rotoplas, an international company specialized in Water Solutions with a presence in 14 countries. At Acuantia we develop solutions that help guarantee water for future generations through services for the purification, treatment, reuse, and desalination of water. We also provide products for the storage of liquids through delivery platforms. ",
+	"app-sec-about-btn": "Request a consultation",
+
 	"app-selector-es": "Esp",
 	"app-selector-en": "Eng",
 	"app-selector-po": "Por"
