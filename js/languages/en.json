@@ -20,6 +20,58 @@
 	"app-sec-about-txt": "We are a brand backed by Grupo Rotoplas, an international company specialized in Water Solutions with a presence in 14 countries. At Acuantia we develop solutions that help guarantee water for future generations through services for the purification, treatment, reuse, and desalination of water. We also provide products for the storage of liquids through delivery platforms. ",
 	"app-sec-about-btn": "Request a consultation",
 
+	"app-sec-presents-txt": "Estamos presentes en Estados Unidos y Brasil y operamos con un equipo de más de XXX.",
+
+	"app-sec-proposit-title": "Propósito",
+	"app-sec-proposit-txt-1": "En Acuantia nos hemos propuesto cuidar el agua y acompañarla a lo largo de su ciclo natural. La almacenamos como los lagos, la transportamos como los ríos, la filtramos como la tierra y la calentamos como el sol.",
+	"app-sec-proposit-txt-2": "Promoviendo su uso responsable y su reutilización a través de soluciones integrales que garanticen su protección, podemos asegurar el acceso al agua para las generaciones futuras y su conservación a largo plazo.",
+
+	"app-sec-pillars-title": "Pilares",
+	"app-sec-pillars-txt": "Al ser parte de Rotoplas nuestros principales pilares son la sustentabilidad y la innovación al crear soluciones que ayuden al almacenamiento, al tratamientos y reúso del agua.",
+
+	"app-sec-services-title": "¿Qué servicios ofrecemos?",
+	"app-sec-services-subtitle": "SOLUCIONES DE SISTEMAS SÉPTICOS",
+	"app-sec-services-txt-1": "Proporcionamos una solución única para todas las necesidades sépticas: desde la evaluación del sitio y del suelo con la prueba de perc, hasta la instalación del sistema séptico.",
+	"app-sec-services-txt-2": "Conoce más",
+	"app-sec-services-btn-us": "Acuantia US",
+	"app-sec-services-btn-br": "Acuantia Brasil",
+
+	"app-sec-solutions-storage-title": "Soluciones de Almacenamiento",
+	"app-sec-solutions-storage-txt": "Ofrecemos soluciones de almacenamiento a través de las principales plataformas de ecommerce en Estados Unidos.",
+
+	"app-sec-solutions-treatment-title": "Soluciones de Tratamiento y Reúso de Agua",
+	"app-sec-solutions-treatment-txt": "Tratamiento de efluentes sanitarios e industriales para su reutilización.",
+
+	"app-sec-solutions-catchment-title": "Soluciones de Captación de Agua",
+	"app-sec-solutions-catchment-txt": "Captación, tratamiento y distribución de agua de lluvia.",
+
+	"app-sec-solutions-btn": "Conoce más",
+
+	"app-sec-pillars-history-title": "Nuestra historia",
+	"app-sec-pillars-history-txt": "Somos una marca que nace de Grupo Rotoplas con la visión de ofrecer soluciones que ayuden a garantizar la máxima eficiencia y cuidado del agua en las localidades donde operamos.",
+
+	"app-sec-who-title": "¿Quién es Rotoplas?",
+	"app-sec-who-txt-1": "Rotoplas es una empresa líder en América en soluciones de agua para el almacenamiento, conducción, purificación, tratamiento y reúso de este líquido.",
+	"app-sec-who-txt-2": "Con 40 años de experiencia en la industria y 18 plantas en operación en América, Rotoplas tiene presencia en 14 países y un portafolio que incluye 27 líneas de productos además de servicios.",
+	
+	"app-sec-map-txt-1": "Somos una empresa líder de origen mexicano, con una tradición que nos impulsa a crecer sostenidamente en México y a cruzar fronteras para llevar nuestras soluciones a otros países.",
+	"app-sec-map-txt-2": "Nuestra pasión es innovar y desarrollar nuevas tecnologías que nos permitan ofrecer un amplio portafolio de productos de alta calidad y máxima garantía, de acuerdo con las necesidades y diversas normas y certificaciones. Contamos con tres Centros de Investigación y Desarrollo, CID en León y AIC en Chile.",
+
+	"app-sec-band-txt-1": "A través de una estrategia de sustentabilidad buscamos desarrollar soluciones que ayuden a generar un impacto positivo a la sociedad.",
+	"app-sec-band-txt-2": "Como resultado de la innovación que ponemos en marcha y aceleramos, somos responsables de una serie de impac tos en la triple vertiente de la sustentabilidad: económica, social y ambiental, entre los que destacan la provisión de agua y saneamiento, fortalecimiento de una cultura del agua en la sociedad y contribución a garantizar la disponibilidad del recurso hídrico.",
+
+	"app-sec-brands-title": "Nuestras marcas",
+
+	"app-sec-contact-title": "Contáctanos",
+	"app-sec-contact-form-send": "Enviar",
+
+	"app-footer-title": "Contáctanos",
+	"app-footer-text-1": "Acuantia es una marca con el respaldo de Grupo Rotoplas, empresa internacional especializada en Soluciones de Agua.",
+	"app-footer-btn-us": "Acuantia US",
+	"app-footer-btn-br": "Acuantia Brasil",
+	"app-footer-btn-rtp": "Grupo Rotoplas",
+	"app-footer-copyright": "Copyright © 2021. All rights reserved.",
+
 	"app-selector-es": "Esp",
 	"app-selector-en": "Eng",
 	"app-selector-po": "Por"
