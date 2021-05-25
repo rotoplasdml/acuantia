@@ -40,6 +40,14 @@
 	font-family: 'Point-Regular';
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.menu-regiones-btn .nav-link {
+    color: #75d1ff !important;
+}
+
 body {
 	font-family: 'Point-Regular';
 	color: #6e737a;

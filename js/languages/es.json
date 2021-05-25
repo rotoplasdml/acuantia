@@ -10,11 +10,13 @@
 	"app-welcome": "¡Bienvenidos!",
 	"app-introduction": "Introducción",
 
-	"app-menu-about": "¿Quiénes somos?",
-	"app-menu-services": "¿Qué servicios ofrecemos?",
-	"app-menu-history": "Nuestra historia",
-	"app-menu-brands": "Nuestras marcas",
+	"app-menu-about": "¿Quiénes<br>somos?",
+	"app-menu-services": "¿Qué servicios<br>ofrecemos?",
+	"app-menu-history": "Nuestra<br>historia",
+	"app-menu-brands": "Nuestras<br>marcas",
 	"app-menu-contact": "Contacto",
+	"app-menu-btn-us": "Acuantia<br>Estados Unidos",
+	"app-menu-btn-br": "Acuantia<br>Brasil",
 
 	"app-sec-about-title": "¿Quiénes somos?",
 	"app-sec-about-txt": "Somos una marca con el respaldo de Grupo Rotoplas, empresa internacional especializada en Soluciones de Agua con presencia en 14 países. En Acuantia desarrollamos soluciones que ayuden a garantizar el agua para las generaciones futuras a través de servicios para la purificación, el tratamiento, reúso, y desalinización del agua. También brindamos productos para el almacenamiento de líquidos a través de plataformas de delivery.",
@@ -51,8 +53,9 @@
 	"app-sec-pillars-history-txt": "Somos una marca que nace de Grupo Rotoplas con la visión de ofrecer soluciones que ayuden a garantizar la máxima eficiencia y cuidado del agua en las localidades donde operamos.",
 
 	"app-sec-who-title": "¿Quién es Rotoplas?",
-	"app-sec-who-txt-1": "Rotoplas es una empresa líder en América en soluciones de agua para el almacenamiento, conducción, purificación, tratamiento y reúso de este líquido.",
+	"app-sec-who-txt-1": "Grupo Rotoplas es una empresa mexicana líder en América en soluciones de agua para el almacenamiento, conducción, purificación, tratamiento y reúso de este líquido.",
 	"app-sec-who-txt-2": "Con 40 años de experiencia en la industria y 18 plantas en operación en América, Rotoplas tiene presencia en 14 países y un portafolio que incluye 27 líneas de productos además de servicios.",
+	"app-sec-who-txt-3": "A través de una estrategia de sustentabilidad Grupo Rotoplas busca desarrollar soluciones que ayuden a generar un impacto positivo a la sociedad y a generaciones futuras.",
 	
 	"app-sec-map-txt-1": "Somos una empresa líder de origen mexicano, con una tradición que nos impulsa a crecer sostenidamente en México y a cruzar fronteras para llevar nuestras soluciones a otros países.",
 	"app-sec-map-txt-2": "Nuestra pasión es innovar y desarrollar nuevas tecnologías que nos permitan ofrecer un amplio portafolio de productos de alta calidad y máxima garantía, de acuerdo con las necesidades y diversas normas y certificaciones. Contamos con tres Centros de Investigación y Desarrollo, CID en León y AIC en Chile.",

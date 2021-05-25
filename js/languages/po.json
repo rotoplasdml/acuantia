@@ -11,10 +11,12 @@
 	"app-introduction": "Introdução",
 
 	"app-menu-about": "Sobre nós?",
-	"app-menu-services": "Que serviços oferecemos?",
-	"app-menu-history": "Nossa história",
-	"app-menu-brands": "Nossas marcas",
+	"app-menu-services": "Que serviços<br>oferecemos?",
+	"app-menu-history": "Nossa<br>história",
+	"app-menu-brands": "Nossas<br>marcas",
 	"app-menu-contact": "Contato",
+	"app-menu-btn-us": "Acuantia<br>Estados Unidos",
+	"app-menu-btn-br": "Acuantia<br>Brasil",
 
 	"app-sec-about-title": "Sobre nós",
 	"app-sec-about-txt": "Somos uma marca apoiada pelo Grupo Rotoplas, empresa internacional especializada em Soluções Hídricas com presença em 14 países. Na Acuantia desenvolvemos soluções que ajudam a garantir água para as gerações futuras por meio de serviços de purificação, tratamento, reuso e dessalinização da água. Também fornecemos produtos para armazenamento de líquidos por meio de plataformas de entrega.",
