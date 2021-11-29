@@ -7,8 +7,6 @@
 		"locale": "es",
 		"message-documentation": "qqq"
 	},
-	"app-welcome": "¡Bienvenidos!",
-	"app-introduction": "Introducción",
 
 	"app-menu-about": "¿Quiénes<br>somos?",
 	"app-menu-services": "¿Qué servicios<br>ofrecemos?",
@@ -18,21 +16,28 @@
 	"app-menu-btn-us": "Acuantia<br>Estados Unidos",
 	"app-menu-btn-br": "Acuantia<br>Brasil",
 
+	"app-sec-head-title": "Desarrollamos soluciones que ayuden a garantizar el agua para generaciones futuras.",
+	"app-sec-head-btn": "¿Quiénes somos?",
+
 	"app-sec-about-title": "¿Quiénes somos?",
-	"app-sec-about-txt": "Somos una marca con el respaldo de Grupo Rotoplas, empresa internacional especializada en Soluciones de Agua con presencia en 14 países. En Acuantia desarrollamos soluciones que ayuden a garantizar el agua para las generaciones futuras a través de servicios para la purificación, el tratamiento, reúso, y desalinización del agua. También brindamos productos para el almacenamiento de líquidos a través de plataformas de delivery.",
+	"app-sec-about-txt": "Acuantia es la contracción de las palabras latinas agua y abundancia, Acuantia es sinónimo de calidad y cantidad de agua, es bienestar en forma de soluciones de agua.",
+	"app-sec-about-subtitle-1": "Acuantia, agua en abundancia",
+	"app-sec-about-txt-2": "Somos un equipo de personas apasionadas por la protección de la salud pública y de nuestro planeta.",
+	"app-sec-about-txt-3": "Acuantia es una marca del Grupo Rotoplas, empresa líder en América en soluciones de almacenamiento, conducción, tratamiento y reciclaje de agua. Con 40 años de experiencia en el sector y 18 plantas en funcionamiento en Norteamérica, Rotoplas tiene presencia en 14 países y una cartera que incluye 27 líneas de productos y servicios.",
+	"app-sec-about-txt-4": "Brindamos soluciones integrales para cuidar y acompañar al agua en su ciclo natural y asegurar su acceso para las generaciones futuras.",
 	"app-sec-about-btn": "Solicita una consulta",
 
-	"app-sec-presents-txt": "Estamos presentes en Estados Unidos y Brasil y operamos con un equipo de más de XXX.",
+	"app-sec-presents-txt": "Estamos presentes en Estados Unidos y Brasil.",
 
 	"app-sec-proposit-title": "Propósito",
 	"app-sec-proposit-txt-1": "En Acuantia nos hemos propuesto cuidar el agua y acompañarla a lo largo de su ciclo natural. La almacenamos como los lagos, la transportamos como los ríos, la filtramos como la tierra y la calentamos como el sol.",
 	"app-sec-proposit-txt-2": "Promoviendo su uso responsable y su reutilización a través de soluciones integrales que garanticen su protección, podemos asegurar el acceso al agua para las generaciones futuras y su conservación a largo plazo.",
 
 	"app-sec-pillars-title": "Pilares",
-	"app-sec-pillars-txt": "Al ser parte de Rotoplas nuestros principales pilares son la sustentabilidad y la innovación al crear soluciones que ayuden al almacenamiento, al tratamientos y reúso del agua.",
+	"app-sec-pillars-txt": "Al ser parte de Rotoplas nuestros principales pilares son la <b>sustentabilidad y la innovación al crear soluciones que ayuden al almacenamiento, al tratamientos y reúso del agua.</b>",
 
 	"app-sec-services-title": "¿Qué servicios ofrecemos?",
-	"app-sec-services-subtitle": "SOLUCIONES DE SISTEMAS SÉPTICOS",
+	"app-sec-services-subtitle": "Soluciones de Sistemas Sépticos",
 	"app-sec-services-txt-1": "Proporcionamos una solución única para todas las necesidades sépticas: desde la evaluación del sitio y del suelo con la prueba de perc, hasta la instalación del sistema séptico.",
 	"app-sec-services-txt-2": "Conoce más",
 	"app-sec-services-btn-us": "Acuantia US",
@@ -53,12 +58,15 @@
 	"app-sec-pillars-history-txt": "Somos una marca que nace de Grupo Rotoplas con la visión de ofrecer soluciones que ayuden a garantizar la máxima eficiencia y cuidado del agua en las localidades donde operamos.",
 
 	"app-sec-who-title": "¿Quién es Rotoplas?",
-	"app-sec-who-txt-1": "Grupo Rotoplas es una empresa mexicana líder en América en soluciones de agua para el almacenamiento, conducción, purificación, tratamiento y reúso de este líquido.",
-	"app-sec-who-txt-2": "Con 40 años de experiencia en la industria y 18 plantas en operación en América, Rotoplas tiene presencia en 14 países y un portafolio que incluye 27 líneas de productos además de servicios.",
-	"app-sec-who-txt-3": "A través de una estrategia de sustentabilidad Grupo Rotoplas busca desarrollar soluciones que ayuden a generar un impacto positivo a la sociedad y a generaciones futuras.",
+	"app-sec-who-txt-1": "Rotoplas es una empresa líder en América en soluciones de agua para el almacenamiento, conducción, purificación, tratamiento y reúso de este líquido.",
+	"app-sec-who-txt-2": "Somos una empresa líder de origen mexicano, con una tradición que nos impulsa a crecer sostenidamente en México y a cruzar fronteras para llevar nuestras soluciones a otros países.",
+	"app-sec-who-txt-3": "Nuestra pasión es innovar y desarrollar nuevas tecnologías que nos permitan ofrecer un amplio portafolio de productos de alta calidad y máxima garantía, de acuerdo con las necesidades y diversas normas y certificaciones.",
+	"app-sec-who-txt-4": "A través de una estrategia de sustentabilidad buscamos desarrollar soluciones que ayuden a generar un impacto positivo a la sociedad",
+	"app-sec-who-txt-5": "Como resultado de la innovación que ponemos en marcha y aceleramos, somos responsables de una serie de impactos en la triple vertiente de la sustentabilidad: económica, social y ambiental, entre los que destacan la provisión de agua y saneamiento, fortalecimiento de una cultura del agua en la sociedad y contribución a garantizar la disponibilidad del recurso hídrico.",
+	"app-sec-who-txt-6": "",
 	
-	"app-sec-map-txt-1": "Somos una empresa líder de origen mexicano, con una tradición que nos impulsa a crecer sostenidamente en México y a cruzar fronteras para llevar nuestras soluciones a otros países.",
-	"app-sec-map-txt-2": "Nuestra pasión es innovar y desarrollar nuevas tecnologías que nos permitan ofrecer un amplio portafolio de productos de alta calidad y máxima garantía, de acuerdo con las necesidades y diversas normas y certificaciones. Contamos con tres Centros de Investigación y Desarrollo, CID en León y AIC en Chile.",
+	"app-sec-map-txt-1": "",
+	"app-sec-map-txt-2": "",
 
 	"app-sec-band-txt-1": "A través de una estrategia de sustentabilidad buscamos desarrollar soluciones que ayuden a generar un impacto positivo a la sociedad.",
 	"app-sec-band-txt-2": "Como resultado de la innovación que ponemos en marcha y aceleramos, somos responsables de una serie de impac tos en la triple vertiente de la sustentabilidad: económica, social y ambiental, entre los que destacan la provisión de agua y saneamiento, fortalecimiento de una cultura del agua en la sociedad y contribución a garantizar la disponibilidad del recurso hídrico.",
