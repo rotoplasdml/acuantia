@@ -33,4 +33,15 @@ jQuery(document).ready(function() {
 			$(".navbar-collapse").collapse('hide');
 		}, 800);
 	}, false);
+	//
+	$('#locationSelector').change(function(){
+		console.log('change')
+		if((this).value == 'br') {
+			console.log((this).value)
+		} else if((this).value == 'us') {
+			console.log((this).value)
+			window.open('https://acuantia.com', '_blank')
+		}
+		$("#locationSelector").val('')
+	})
 });

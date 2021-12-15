@@ -12,13 +12,10 @@
 	<body>
 		<!-- Navegacion -->
 		<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-
 			<div class="container-fluid">
-
 				<a href="#" class="navbar-brand">
 					<img src="recursos/imagenes/Acuantia_Masterbrand_RGB_02.png" alt="Acuantia" title="Acuantia" width="200">
 				</a>
-
 				<button 
 					class="navbar-toggler" 
 					type="button" 
@@ -29,9 +26,7 @@
 					aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
 				<div class="collapse navbar-collapse" id="toggleMobileMenu">
-				
 					<ul class="navbar-nav ms-auto text-center align-items-center">
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-about" href="#quienes-somos">¿Quiénes<br>somos?</a></li>
 						<li class="nav-item mx-xl-1"><a class="nav-link" data-i18n="[html]app-menu-services" href="#que-servicios-ofrecemos">¿Qué servicios ofrecemos?</a></li>
@@ -41,9 +36,15 @@
 						<!-- <li class="nav-item">
 							<a class="menu-cta btn mx-0 my-2 mx-xl-2 my-xl-0" href="#">+52 800 506 3000</a>
 						</li> -->
-						<li class="nav-item mx-xl-1 menu-regiones-btn"><a class="nav-link" data-i18n="[html]app-menu-btn-br" href="#contacto">Acuantia<br>Brasil</a></li>
-						<li class="nav-item mx-xl-1 menu-regiones-btn"><a class="nav-link" data-i18n="[html]app-menu-btn-us" href="#contacto">Acuantia<br>Estados Unidos</a></li>
-
+						<li class="nav-item mx-xl-1">
+							<select class="form-select w-auto h-100 my-2 my-lg-0" name="locationSelector" id="locationSelector">
+								<option data-i18n="app-location-op" value="">Localidad</option>
+								<option data-i18n="app-location-br" value="br">Acuantia Brasil</option>
+								<option data-i18n="app-location-us" value="us">Acuantia Estados Unidos</option>
+							</select>
+						</li>
+						<!-- <li class="nav-item mx-xl-1 menu-regiones-btn"><a class="nav-link" data-i18n="[html]app-menu-btn-br" href="#contacto">Acuantia<br>Brasil</a></li>
+						<li class="nav-item mx-xl-1 menu-regiones-btn"><a class="nav-link" data-i18n="[html]app-menu-btn-us" href="#contacto">Acuantia<br>Estados Unidos</a></li> -->
 						<li class="nav-item mx-xl-1">
 							<select class="form-select w-auto h-100 my-2 my-lg-0" name="languageSelector" id="languageSelector">
 								<option data-i18n="app-selector-es" value="es">Esp</option>
@@ -52,11 +53,8 @@
 							</select>
 						</li>
 					</ul>
-
 				</div>
-
 			</div>
-
 		</nav>
 		<!-- Contenidos -->
 		<div class="container-fluid">
@@ -66,7 +64,7 @@
 					<div class="row">
 						<div class="col py-3 col-md-10 offset-md-1 py-md-3 col-lg-12 offset-lg-0 col-xl-8 offset-xl-2">
 							<h2 data-i18n="app-sec-head-title">Desarrollamos soluciones que ayuden a garantizar el agua para generaciones futuras.</h2>
-							<a data-i18n="app-sec-head-btn" class="acuantia-btn" href="#quienes-somos">Quienes Somos</a>
+							<a data-i18n="app-sec-head-btn" class="acuantia-btn mt-3" href="#quienes-somos">Quienes Somos</a>
 						</div>
 					</div>
 				</div>
@@ -78,8 +76,8 @@
 			<div id="quienes-somos" class="row acuantia-presentes justify-content-center py-3">
 				<div class="col-12">
 
-					<div class="row justify-content-center text-center">
-						<div class="col-12 col-sm-6">
+					<div class="row justify-content-center text-justify mt-3">
+						<div class="col-12 col-sm-8 col-md-5">
 							<h2 data-i18n="app-sec-about-title">¿Quiénes somos?</h2>
 							<p data-i18n="app-sec-about-txt">Somos una marca con el respaldo de Grupo Rotoplas, empresa internacional especializada en Soluciones de Agua con presencia en 14 países. En Acuantia desarrollamos soluciones que ayuden a garantizar el agua para las generaciones futuras a través de servicios para la purificación, el tratamiento, reúso, y desalinización del agua. También brindamos productos para el almacenamiento de líquidos a través de plataformas de delivery.</p>
 							<h3 data-i18n="app-sec-about-subtitle-1">Acuantia, agua en abundancia.</h3>
@@ -96,7 +94,7 @@
 					<img class="d-inline-block w-100" src="recursos/imagenes/presentes.jpg" alt="Presentes" title="Presentes">
 				</div>
 				<div class="col-9 p-3 col-sm-8 col-lg-4 text-center d-flex align-items-center">
-					<p class="text-start align-middle" data-i18n="app-sec-presents-txt">Estamos presentes en Estados Unidos y Brasil.</p>
+					<h3 class="text-start align-middle" data-i18n="app-sec-presents-txt">Estamos presentes en Estados Unidos y Brasil.</h3>
 				</div>
 			</div>
 			<!-- Proposito / Pilares -->
@@ -121,6 +119,11 @@
 			<div id="que-servicios-ofrecemos" class="row justify-content-center acuantia-servicios">
 				<div class="col col-lg-6 text-center">
 					<h2 data-i18n="app-sec-services-title" class="mb-0">¿Qué servicios ofrecemos?</h2>
+				</div>
+			</div>
+			<!-- <div id="que-servicios-ofrecemos" class="row justify-content-center acuantia-servicios">
+				<div class="col col-lg-6 text-center">
+					<h2 data-i18n="app-sec-services-title" class="mb-0">¿Qué servicios ofrecemos?</h2>
 					<p data-i18n="app-sec-services-subtitle">SOLUCIONES DE SISTEMAS SÉPTICOS</p>
 					<p data-i18n="app-sec-services-txt-1">Proporcionamos una solución única para todas las necesidades sépticas: desde la evaluación del sitio y del suelo con la prueba de perc, hasta la instalación del sistema séptico.</p>
 					<p data-i18n="app-sec-services-txt-2" class="bold">Conoce más</p>
@@ -129,7 +132,7 @@
 						<a class="acuantia-btn bold mt-3 mt-sm-0" href="#"><span data-i18n="app-sec-services-btn-br">Acuantia Brasil</span><img src="recursos/imagenes/btn-arrow.svg" width="18" alt="&gt;" title="&gt;"></a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<!-- soluciones -->
 			<div class="row">
 				<div class="col">
@@ -175,6 +178,30 @@
 							<a data-i18n="app-sec-solutions-btn" class="acuantia-btn bold" href="#">Conoce más</a>
 						</div>
 					</div>
+					<!-- nodo -->
+					<div class="row flex-column-reverse flex-lg-row">
+						<div class="col-12 col-lg-5 p-0">
+							<img class="w-100" src="recursos/imagenes/soluciones-septicas.jpg" alt="Imagen"  title="Soluciones de Captación de Agua">
+						</div>
+						<div class="col-12 col-lg-2 py-3 py-lg-0 d-flex justify-content-center">
+							<img src="recursos/imagenes/soluciones-captacion.svg" width="100" alt="Icono" title="Soluciones de Captación de Agua">
+						</div>
+						<div class="col-12 col-lg-5 pt-3 py-lg-0 text-center text-lg-start d-flex flex-column align-items-center justify-content-center align-items-lg-start">
+							<p data-i18n="app-sec-solutions-septic-title" class="bold">Soluciones de Sistemas Sépticos</p>
+							<p data-i18n="app-sec-solutions-septic-txt">Captación, tratamiento y distribución de agua de lluvia.</p>
+							<a data-i18n="app-sec-solutions-btn" class="acuantia-btn bold" href="#">Conoce más</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Servicios -->
+			<div id="que-servicios-ofrecemos" class="row justify-content-center acuantia-servicios">
+				<div class="col col-lg-6 text-center">
+					<p data-i18n="app-sec-services-txt-2" class="bold pb-3">Conoce más</p>
+					<div class="d-flex flex-column justify-content-center align-items-center flex-sm-row justify-content-sm-around">
+						<a class="acuantia-btn bold" href="#"><span data-i18n="app-sec-services-btn-us">Acuantia US</span><img src="recursos/imagenes/btn-arrow.svg" width="18" alt="&gt;" title="&gt;"></a>
+						<a class="acuantia-btn bold mt-3 mt-sm-0" href="#"><span data-i18n="app-sec-services-btn-br">Acuantia Brasil</span><img src="recursos/imagenes/btn-arrow.svg" width="18" alt="&gt;" title="&gt;"></a>
+					</div>
 				</div>
 			</div>
 			<!-- Historia -->
@@ -200,21 +227,21 @@
 				</div>
 			</div>
 			<!-- Quien -->
-			<div class="row py-3 my-3 flex-column-reverse flex-sm-row">
-				<div class="col-12 col-sm-6 d-flex justify-content-center acuantia-quien">
+			<div class="row py-3 my-3 flex-sm-row">
+				<div class="col-10 offset-1 | col-lg-5 offset-lg-1 | d-flex justify-content-center align-items-center acuantia-quien">
 					<video class="w-100" poster="recursos/imagenes/video-poster.jpg" controls>
 						<source src="recursos/video/mov_bbb.mp4" type="video/mp4">
 						Your browser does not support HTML video .
 					</video>
 				</div>
-				<div class="col-12 py-3 text-center text-sm-start col-sm-6 acuantia-quien-texto">
+				<div class="col-10 offset-1 | col-lg-4 offset-lg-1 | py-3 text-center text-sm-start acuantia-quien-texto">
 					<h2 data-i18n="app-sec-who-title">¿Quién es Rotoplas?</h2>
 					<p data-i18n="app-sec-who-txt-1">Grupo Rotoplas es una empresa mexicana líder en América en soluciones de agua para el almacenamiento, conducción, purificación, tratamiento y reúso de este líquido.</p>
 					<p data-i18n="app-sec-who-txt-2">Con 40 años de experiencia en la industria y 18 plantas en operación en América, Rotoplas tiene presencia en 14 países y un portafolio que incluye 27 líneas de productos además de servicios.</p>
 					<p data-i18n="app-sec-who-txt-3">A través de una estrategia de sustentabilidad Grupo Rotoplas busca desarrollar soluciones que ayuden a generar un impacto positivo a la sociedad y a generaciones futuras.</p>
-					<p data-i18n="app-sec-who-txt-4"></p>
-					<p data-i18n="app-sec-who-txt-5"></p>
-					<p data-i18n="app-sec-who-txt-6"></p>
+					<p data-i18n="app-sec-who-txt-4">4</p>
+					<p data-i18n="app-sec-who-txt-5">5</p>
+					<p data-i18n="app-sec-who-txt-6">6</p>
 					<!-- <div class="text-center"><img src="recursos/imagenes/rotoplas_logo.svg" width="200" alt="Rotoplas" title="Rotoplas"></div> -->
 				</div>
 			</div>
@@ -237,11 +264,11 @@
 				<div class="col col-lg-8">
 					<h2 data-i18n="app-sec-brands-title">Nuestras marcas</h2>
 					<div class="row">
-						<div class="col d-flex flex-column justify-content-center align-items-center flex-md-row justify-content-md-around">
-							<img class="mt-3" src="recursos/imagenes/the-tank-depot.png" height="80" alt="Logotipo" title="The Tank Depot">
-							<img class="mt-3" src="recursos/imagenes/plastic-mart.png" height="80" alt="Logotipo" title="Plastic Mart">
-							<img class="mt-3" src="recursos/imagenes/plastic-water-tanks.png" height="50" alt="Logotipo" title="Plastic Water Tanks">
-							<img class="mt-3" src="recursos/imagenes/biorock.png" alt="Logotipo" height="70" title="Biorock">
+						<div class="col d-flex flex-column flex-wrap justify-content-center align-items-center flex-md-row justify-content-md-around">
+							<img class="my-3" src="recursos/imagenes/the-tank-depot.png" height="80" alt="Logotipo" title="The Tank Depot">
+							<img class="my-3" src="recursos/imagenes/plastic-mart.png" height="80" alt="Logotipo" title="Plastic Mart">
+							<img class="my-3" src="recursos/imagenes/plastic-water-tanks.png" height="50" alt="Logotipo" title="Plastic Water Tanks">
+							<img class="my-3" src="recursos/imagenes/biorock.png" alt="Logotipo" height="70" title="Biorock">
 						</div>
 					</div>
 				</div>

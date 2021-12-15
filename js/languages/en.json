@@ -16,6 +16,10 @@
 	"app-menu-btn-us": "Acuantia<br>United States",
 	"app-menu-btn-br": "Acuantia<br>Brazil",
 
+	"app-location-op":"Location",
+	"app-location-br":"Brazil",
+	"app-location-us":"United States",
+
 	"app-sec-head-title": "We develop solutions that help to guarantee water for future generations.",
 	"app-sec-head-btn": "Who are we?",
 
@@ -51,6 +55,9 @@
 
 	"app-sec-solutions-catchment-title": "Water Harvesting Solutions",
 	"app-sec-solutions-catchment-txt": "Rainwater harvesting, treatment, and distribution.",
+
+	"app-sec-solutions-septic-title": "Septic System Solutions",
+	"app-sec-solutions-septic-txt": "We provide a single solution for all septic needs: from site and soil assessment with Perc testing, to septic system installation.",
 
 	"app-sec-solutions-btn": "Learn more",
 

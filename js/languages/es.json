@@ -8,13 +8,17 @@
 		"message-documentation": "qqq"
 	},
 
-	"app-menu-about": "¿Quiénes<br>somos?",
-	"app-menu-services": "¿Qué servicios<br>ofrecemos?",
-	"app-menu-history": "Nuestra<br>historia",
-	"app-menu-brands": "Nuestras<br>marcas",
+	"app-menu-about": "¿Quiénes somos?",
+	"app-menu-services": "¿Qué servicios ofrecemos?",
+	"app-menu-history": "Nuestra historia",
+	"app-menu-brands": "Nuestras marcas",
 	"app-menu-contact": "Contacto",
-	"app-menu-btn-us": "Acuantia<br>Estados Unidos",
-	"app-menu-btn-br": "Acuantia<br>Brasil",
+	"app-menu-btn-us": "Acuantia Estados Unidos",
+	"app-menu-btn-br": "Acuantia Brasil",
+
+	"app-location-op":"Localidad",
+	"app-location-br":"Brasil",
+	"app-location-us":"Estados Unidos",
 
 	"app-sec-head-title": "Desarrollamos soluciones que ayuden a garantizar el agua para generaciones futuras.",
 	"app-sec-head-btn": "¿Quiénes somos?",
@@ -52,6 +56,9 @@
 	"app-sec-solutions-catchment-title": "Soluciones de Captación de Agua",
 	"app-sec-solutions-catchment-txt": "Captación, tratamiento y distribución de agua de lluvia.",
 
+	"app-sec-solutions-septic-title": "Soluciones de Sistemas Sépticos",
+	"app-sec-solutions-septic-txt": "Proporcionamos una solución única para todas las necesidades sépticas: desde la evaluación del sitio y del suelo con la prueba de perc, hasta la instalación del sistema séptico.",
+
 	"app-sec-solutions-btn": "Conoce más",
 
 	"app-sec-pillars-history-title": "Nuestra historia",
@@ -63,10 +70,10 @@
 	"app-sec-who-txt-3": "Nuestra pasión es innovar y desarrollar nuevas tecnologías que nos permitan ofrecer un amplio portafolio de productos de alta calidad y máxima garantía, de acuerdo con las necesidades y diversas normas y certificaciones.",
 	"app-sec-who-txt-4": "A través de una estrategia de sustentabilidad buscamos desarrollar soluciones que ayuden a generar un impacto positivo a la sociedad",
 	"app-sec-who-txt-5": "Como resultado de la innovación que ponemos en marcha y aceleramos, somos responsables de una serie de impactos en la triple vertiente de la sustentabilidad: económica, social y ambiental, entre los que destacan la provisión de agua y saneamiento, fortalecimiento de una cultura del agua en la sociedad y contribución a garantizar la disponibilidad del recurso hídrico.",
-	"app-sec-who-txt-6": "",
+	"app-sec-who-txt-6": " ",
 	
-	"app-sec-map-txt-1": "",
-	"app-sec-map-txt-2": "",
+	"app-sec-map-txt-1": " ",
+	"app-sec-map-txt-2": " ",
 
 	"app-sec-band-txt-1": "A través de una estrategia de sustentabilidad buscamos desarrollar soluciones que ayuden a generar un impacto positivo a la sociedad.",
 	"app-sec-band-txt-2": "Como resultado de la innovación que ponemos en marcha y aceleramos, somos responsables de una serie de impac tos en la triple vertiente de la sustentabilidad: económica, social y ambiental, entre los que destacan la provisión de agua y saneamiento, fortalecimiento de una cultura del agua en la sociedad y contribución a garantizar la disponibilidad del recurso hídrico.",

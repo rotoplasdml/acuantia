@@ -16,6 +16,10 @@
 	"app-menu-btn-us": "Acuantia<br>United States",
 	"app-menu-btn-br": "Acuantia<br>Brazil",
 
+	"app-location-op":"Localização",
+	"app-location-br":"Brasil",
+	"app-location-us":"Estados Unidos",
+
 	"app-sec-head-title": "Desenvolvemos soluções que ajudam a garantir água para as gerações futuras.",
 	"app-sec-head-btn": "Quem somos?",
 
@@ -51,6 +55,9 @@
 
 	"app-sec-solutions-catchment-title": "Soluções de captação de água",
 	"app-sec-solutions-catchment-txt": "Coleta, tratamento e distribuição de água da chuva.",
+
+	"app-sec-solutions-septic-title": "Soluções de sistemas sépticos",
+	"app-sec-solutions-septic-txt": "Oferecemos uma solução completa para todas as necessidades sépticas: desde a avaliação do local e do solo usando o teste perc, até a instalação do sistema séptico.",
 
 	"app-sec-solutions-btn": "Saiba mais",
 
